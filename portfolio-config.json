@@ -1,0 +1,338 @@
+[
+  {
+    "id": "corridor-illustration",
+    "title": "Corridor Book Illustration",
+    "category": "Illustration",
+    "size": "normal",
+    "description": "Created over 120 black-and-white illustrations with grayscale shading for a published horror-themed book. Produced story scenes, environmental illustrations, props, maps, and visual story elements while maintaining a cohesive artistic style and meeting publication deadlines.",
+    "videos": [
+      {
+        "provider": "local",
+        "id": "Corridor Book Illustrations/Top Ten Scary Games You Can Play In Your Head, By Yourself.mp4",
+        "title": "Scary Games Animatic Process",
+        "embed": true
+      }
+    ],
+    "downloads": [],
+    "folder": "Corridor Book Illustrations",
+    "prefixes": []
+  },
+  {
+    "id": "killermike-cod-video",
+    "title": "KillerMike COD video",
+    "category": "Storyboards",
+    "size": "normal",
+    "description": "Storyboard panels outlining intense action sequences and camera movements for the KillerMike Call of Duty promotional music video.",
+    "videos": [],
+    "downloads": [],
+    "folder": "KillerMike COD video",
+    "prefixes": []
+  },
+  {
+    "id": "dojacat-woman-video",
+    "title": "DojaCat Woman Video",
+    "category": "Storyboards",
+    "size": "normal",
+    "description": "Cinematic visual development and detailed storyboard layout for Doja Cat's music video 'Woman'.",
+    "videos": [],
+    "downloads": [],
+    "folder": "DojaCat Woman Video",
+    "prefixes": []
+  },
+  {
+    "id": "gwens-music-video",
+    "title": "Gwen Stefani - Shake The Snow Globe Music Video",
+    "category": "Storyboards",
+    "size": "normal",
+    "description": "Production storyboards tracking choreography, set locations, and framing for GwenS's music video project.",
+    "videos": [],
+    "downloads": [],
+    "folder": "GwenS Music Video",
+    "prefixes": []
+  },
+  {
+    "id": "alien-harvest",
+    "title": "Alien Harvest",
+    "category": "Concept Art",
+    "size": "normal",
+    "description": "Concept art, environment development, and visual exploration for the Alien Harvest project.",
+    "videos": [
+      {
+        "provider": "local",
+        "id": "Alien Harvest/Alien 40th Anniversary Short Film： 'Harvest'.mp4",
+        "title": "Alien 40th Anniversary Short Film: \"Harvest\"",
+        "embed": true
+      }
+    ],
+    "downloads": [],
+    "folder": "Alien Harvest",
+    "prefixes": []
+  },
+  {
+    "id": "brc-last-cup-commercal",
+    "title": "BRC Last Cup Commercal",
+    "category": "Graphic Design",
+    "size": "normal",
+    "description": "Branding, campaign art, and promotional visuals for BRC Last Cup Commercal.",
+    "videos": [],
+    "downloads": [],
+    "folder": "BRC Last Cup Commercal",
+    "prefixes": []
+  },
+  {
+    "id": "wizk-music-video",
+    "title": "WizK Music Video",
+    "category": "Storyboards",
+    "size": "normal",
+    "description": "Visual board sequences mapping the narrative beats and key performance shots for WizK's music video.",
+    "videos": [],
+    "downloads": [],
+    "folder": "WizK Music Video",
+    "prefixes": []
+  },
+  {
+    "id": "rocketjump-the-show-hulu",
+    "title": "Rocket Jump The Show HULU",
+    "category": "Storyboards",
+    "size": "wide",
+    "description": "Storyboard panels and action planning for Rocket Jump: The Show on Hulu.",
+    "videos": [],
+    "downloads": [],
+    "folder": "Rocket Jump The Show HULU",
+    "prefixes": [],
+    "cover": "Rocket Jump The Show HULU/RJ1.jpg",
+    "custom_captions": {
+      "Rocket Jump The Show HULU/RJ2.jpg": "Rocket Jump Storyboards - Action Sequence A",
+      "Rocket Jump The Show HULU/RJ4.jpg": "Rocket Jump Storyboards - Action Sequence B"
+    }
+  },
+  {
+    "id": "the-innocent-documentary",
+    "title": "The Innocent Documentary",
+    "category": "Storyboards",
+    "size": "normal",
+    "description": "Visual storyboards and documentary planning for The Innocent project.",
+    "videos": [
+      {
+        "provider": "local",
+        "id": "The Innocent Documentary/The Innocent Man ｜ Official Trailer [HD] ｜ Netflix.mp4",
+        "title": "The Innocent Man | Official Trailer",
+        "embed": true
+      }
+    ],
+    "downloads": [],
+    "folder": "The Innocent Documentary",
+    "prefixes": []
+  },
+  {
+    "id": "animatics",
+    "title": "Animatics",
+    "category": "Animation & Storyboards",
+    "size": "normal",
+    "description": "Animatic timing studies and visual progression work across sequence tests.",
+    "videos": [
+      {
+        "provider": "local",
+        "id": "Animatics/Duncanville_Storyboard_Test_v1.mp4",
+        "title": "Duncanville Storyboard Test",
+        "embed": true
+      },
+      {
+        "provider": "local",
+        "id": "Animatics/Pizza Guy Animatic Process.mp4",
+        "title": "Pizza Guy Animatic Process",
+        "embed": true
+      },
+      {
+        "provider": "local",
+        "id": "Animatics/Sam & Max Cinematic Test.mp4",
+        "title": "Sam & Max Cinematic Test",
+        "embed": true
+      },
+      {
+        "provider": "local",
+        "id": "Animatics/Stopmotioin Super Fight Animatic.mp4",
+        "title": "Stopmotion Super Fight Animatic",
+        "embed": true
+      },
+      {
+        "provider": "local",
+        "id": "Animatics/Ultimates Avengers animatic.mp4",
+        "title": "Ultimates Avengers Animatic",
+        "embed": true
+      }
+    ],
+    "downloads": [],
+    "folder": "Animatics",
+    "prefixes": []
+  },
+  {
+    "id": "brc-black-friday",
+    "title": "BRC Black Friday",
+    "category": "Graphic Design",
+    "size": "normal",
+    "description": "Campaign layouts and promotional design work for Black Friday sales assets.",
+    "videos": [],
+    "downloads": [],
+    "folder": "BRC Black Friday",
+    "prefixes": []
+  },
+  {
+    "id": "corridor-battle-born",
+    "title": "Corridor Battle Born",
+    "category": "Storyboards",
+    "size": "normal",
+    "description": "Storyboard and visual development for the Corridor Battle Born project.",
+    "videos": [],
+    "downloads": [],
+    "folder": "Corridor Battle Born",
+    "prefixes": []
+  },
+  {
+    "id": "corridor-dimensions",
+    "title": "Corridor Demensions",
+    "category": "Concept Art & Storyboards & Animation",
+    "size": "normal",
+    "description": "Character and environment design visual development for the Corridor Demensions concept project.",
+    "videos": [
+      {
+        "provider": "local",
+        "id": "Corridor Demensions/The Final Corridor Dimensions Animation Trailer.mp4",
+        "title": "The Final Corridor Dimensions Animation Trailer",
+        "embed": true
+      }
+    ],
+    "downloads": [
+      {
+        "name": "Corridor Dimensions Lookbook (PDF)",
+        "url": "Corridor Demensions/CD 4x4.pdf"
+      }
+    ],
+    "folder": "Corridor Demensions",
+    "prefixes": []
+  },
+  {
+    "id": "graphic-design-motion-graphics",
+    "title": "Graphic Design & Motion Graphics",
+    "category": "Motion Graphics",
+    "size": "normal",
+    "description": "Poster, motion, and graphic design work spanning brand and promotional pieces.",
+    "videos": [
+      {
+        "provider": "local",
+        "id": "Graphic Design & Motion Graphics/Gabriel Peregrino_Motion Graiphics Reel.mp4",
+        "title": "Motion Graphics Reel",
+        "embed": true
+      },
+      {
+        "provider": "local",
+        "id": "Graphic Design & Motion Graphics/GabrielP_Animation trailer.mp4",
+        "title": "Animation Trailer",
+        "embed": true
+      }
+    ],
+    "downloads": [],
+    "folder": "Graphic Design & Motion Graphics",
+    "prefixes": []
+  },
+  {
+    "id": "kids-art-animation",
+    "title": "Kids Art & Animation",
+    "category": "Illustration & Animation",
+    "size": "normal",
+    "description": "Illustration and animation work focused on child-friendly visual storytelling and creativity.",
+    "videos": [],
+    "downloads": [],
+    "folder": "Kids Art & Animation",
+    "prefixes": []
+  },
+  {
+    "id": "liams-fight-animation",
+    "title": "Liam's Fight Animation",
+    "category": "Animation & Storyboards",
+    "size": "normal",
+    "description": "Animation and story development for the Liam's Fight project.",
+    "videos": [
+      {
+        "provider": "local",
+        "id": "Liam's Fight Animation/Liam's CAR-T Story_ Surviving Advanced B-Cell ALL.mp4",
+        "title": "Liam's CAR-T Story: Surviving Advanced B-Cell ALL",
+        "embed": true
+      }
+    ],
+    "downloads": [],
+    "folder": "Liam's Fight Animation",
+    "prefixes": []
+  },
+  {
+    "id": "five-nations-comic-folder",
+    "title": "5 Nations Comic Folder",
+    "category": "Comics & Concept Art",
+    "size": "wide",
+    "description": "The complete 5 Nations Comic folder collection as a standalone portfolio entry.",
+    "videos": [],
+    "downloads": [],
+    "folder": "5 Nations Comic",
+    "prefixes": [],
+    "cover": "5 Nations Comic/5N_cover.jpg"
+  },
+  {
+    "id": "chaos-agent-comic-folder",
+    "title": "Chaos Agent Comic Folder",
+    "category": "Comics",
+    "size": "normal",
+    "description": "The complete Chaos Agent Comic folder collection as a standalone portfolio entry.",
+    "videos": [],
+    "downloads": [],
+    "folder": "Chaos  Agent Comic",
+    "prefixes": [],
+    "cover": "Chaos  Agent Comic/01.jpg"
+  },
+  {
+    "id": "comics-folder",
+    "title": "Comics Folder",
+    "category": "Comics",
+    "size": "normal",
+    "description": "The general Comics folder archive, including additional comic-related artwork and pages.",
+    "videos": [],
+    "downloads": [],
+    "folder": "Comics",
+    "prefixes": []
+  },
+  {
+    "id": "concept-art-folder",
+    "title": "Concept Art Folder",
+    "category": "Concept Art",
+    "size": "normal",
+    "description": "The complete Concept Art folder archive containing environment, character, and illustration studies.",
+    "videos": [],
+    "downloads": [
+      {
+        "name": "Character Concept Portfolio (PDF)",
+        "url": "Concept Art/Character_concept_portfolio.pdf"
+      }
+    ],
+    "folder": "Concept Art",
+    "prefixes": []
+  },
+  {
+    "id": "storyboards-folder",
+    "title": "Storyboards Folder",
+    "category": "Storyboards",
+    "size": "normal",
+    "description": "The complete storyboards folder archive covering pitch boards, production boards, and visual planning work.",
+    "videos": [],
+    "downloads": [
+      {
+        "name": "Storyboard Portfolio 2016 (PDF)",
+        "url": "storyboards/Storyboard_Portfolio 2016.pdf"
+      },
+      {
+        "name": "Storyboard Portfolio (PDF)",
+        "url": "storyboards/Storyboard_portfolio.pdf"
+      }
+    ],
+    "folder": "storyboards",
+    "prefixes": []
+  }
+]
