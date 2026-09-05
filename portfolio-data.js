@@ -542,7 +542,7 @@ const portfolioData = [
     },
     {
         "id": "corridor-battle-born",
-        "title": "Corridor Battle Born",
+        "title": "Corridor Battleborn Trick Shots",
         "category": "Storyboards",
         "coverUrl": "Corridor Battle Born/1a.png",
         "size": "normal",
@@ -595,7 +595,7 @@ const portfolioData = [
     },
     {
         "id": "corridor-dimensions",
-        "title": "Corridor Demensions",
+        "title": "Corridor Demensions Animation",
         "category": "Concept Art & Storyboards & Animation",
         "coverUrl": "Corridor Demensions/1a.png",
         "size": "normal",
