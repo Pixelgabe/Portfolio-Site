@@ -3,7 +3,7 @@
 const portfolioData = [
     {
         "id": "corridor-illustration",
-        "title": "Top Ten Scary Games You Can Play In Your Head - Book Illustration",
+        "title": "Corridor Book Illustration",
         "category": "Illustration",
         "coverUrl": "Corridor Book Illustrations/UC 01.jpg",
         "size": "normal",
@@ -103,7 +103,7 @@ const portfolioData = [
     },
     {
         "id": "killermike-cod-video",
-        "title": "Killer Mike - Detonator - Call of Duty: Black Ops 6",
+        "title": "KillerMike COD video",
         "category": "Storyboards",
         "coverUrl": "KillerMike COD video/1.webp",
         "size": "normal",
@@ -148,7 +148,7 @@ const portfolioData = [
     },
     {
         "id": "dojacat-woman-video",
-        "title": "Doja Cat - Woman Music Video",
+        "title": "DojaCat Woman Video",
         "category": "Storyboards",
         "coverUrl": "DojaCat Woman Video/1.png",
         "size": "normal",
@@ -156,10 +156,6 @@ const portfolioData = [
         "videos": [],
         "downloads": [],
         "assets": [
-            {
-                "url": "DojaCat Woman Video/1.png",
-                "caption": ""
-            },
             {
                 "url": "DojaCat Woman Video/2A.webp",
                 "caption": ""
@@ -197,6 +193,10 @@ const portfolioData = [
         "videos": [],
         "downloads": [],
         "assets": [
+            {
+                "url": "GwenS Music Video/1a.png",
+                "caption": ""
+            },
             {
                 "url": "GwenS Music Video/2a.webp",
                 "caption": ""
@@ -279,6 +279,10 @@ const portfolioData = [
         "downloads": [],
         "assets": [
             {
+                "url": "BRC Last Cup Commercal/1a.png",
+                "caption": ""
+            },
+            {
                 "url": "BRC Last Cup Commercal/2a.webp",
                 "caption": ""
             },
@@ -314,7 +318,7 @@ const portfolioData = [
         "youtubeId": ""
     },
     {
-        "id": "wizk-music-video",
+        "id": "Wiz Khalifa - Peace and Love Music Video",
         "title": "Wiz Khalifa - Peace and Love Music Video",
         "category": "Storyboards",
         "coverUrl": "WizK Music Video/1a.png",
@@ -381,11 +385,11 @@ const portfolioData = [
     },
     {
         "id": "the-innocent-documentary",
-        "title": "The Innocent Documentary",
+        "title": "The Innocent Man NETFLIX Documentary",
         "category": "Storyboards",
         "coverUrl": "The Innocent Documentary/1a.jpg",
         "size": "normal",
-        "description": "Visual storyboards and documentary planning for The Innocent project that is based on the true story of a man wrongfully convicted of murder.",
+        "description": "Visual storyboards and documentary planning for The Innocent project.",
         "videos": [
             {
                 "provider": "local",
@@ -396,6 +400,10 @@ const portfolioData = [
         ],
         "downloads": [],
         "assets": [
+            {
+                "url": "The Innocent Documentary/1a.jpg",
+                "caption": ""
+            },
             {
                 "url": "The Innocent Documentary/FMS92_stoaryboards000.jpg",
                 "caption": ""
@@ -468,16 +476,20 @@ const portfolioData = [
         ],
         "downloads": [],
         "assets": [
+            {
+                "url": "Animatics/1a.png",
+                "caption": ""
+            }
         ],
         "youtubeId": ""
     },
     {
         "id": "brc-black-friday",
         "title": "BRC - Bass Pro Battle Royale Commercial",
-        "category": "Storyboards",
+        "category": "Graphic Design",
         "coverUrl": "BRC Black Friday/1.webp",
         "size": "normal",
-        "description": "Building storyboard sequences and visual planning for the BRC Black Friday commercial with Corridor Digital.",
+        "description": "Campaign layouts and promotional design work for Black Friday sales assets.",
         "videos": [],
         "downloads": [],
         "assets": [
@@ -530,7 +542,7 @@ const portfolioData = [
     },
     {
         "id": "corridor-battle-born",
-        "title": "Corridor Battleborn Trick Shots",
+        "title": "Corridor Battle Born",
         "category": "Storyboards",
         "coverUrl": "Corridor Battle Born/1a.png",
         "size": "normal",
@@ -641,6 +653,12 @@ const portfolioData = [
                 "id": "Graphic Design & Motion Graphics/GabrielP_Animation trailer.mp4",
                 "title": "Animation Trailer",
                 "embed": true
+            },
+            {
+                "provider": "local",
+                "id": "Graphic Design & Motion Graphics/Guillotine Channel Log Animation.mp4",
+                "title": "Guillotine Channel Log Animation",
+                "embed": true
             }
         ],
         "downloads": [],
@@ -655,7 +673,7 @@ const portfolioData = [
     {
         "id": "kids-art-animation",
         "title": "Kids Art & Animation",
-        "category": "Illustration & Animation & Concept Art",
+        "category": "Illustration & Animation",
         "coverUrl": "Kids Art & Animation/1b.png",
         "size": "normal",
         "description": "Illustration and animation work focused on child-friendly visual storytelling and creativity.",
@@ -742,7 +760,7 @@ const portfolioData = [
         "youtubeId": ""
     },
     {
-        "id": "five-nations-comic-folder",
+        "id": "five-nations-comic",
         "title": "5 Nations Comic",
         "category": "Comics & Concept Art",
         "coverUrl": "5 Nations Comic/5N_cover.jpg",
@@ -823,10 +841,10 @@ const portfolioData = [
         "youtubeId": ""
     },
     {
-        "id": "chaos-agent-comic-folder",
+        "id": "chaos-agent-comic",
         "title": "Chaos Agent Comic",
         "category": "Comics",
-        "coverUrl": "Chaos  Agent Comic/_1.jpg",
+        "coverUrl": "Chaos  Agent Comic/01.jpg",
         "size": "normal",
         "description": "The complete Chaos Agent Comic personal project.",
         "videos": [],
@@ -864,12 +882,12 @@ const portfolioData = [
         "youtubeId": ""
     },
     {
-        "id": "comics-folder",
+        "id": "comics",
         "title": "Comics",
         "category": "Comics",
         "coverUrl": "Comics/TC_cover2.jpg",
         "size": "normal",
-        "description": "The general Comics folder archive, including additional comics artwork and pages.",
+        "description": "The general Comics folder archive, including additional comic-related artwork and pages.",
         "videos": [],
         "downloads": [],
         "assets": [
@@ -933,7 +951,7 @@ const portfolioData = [
         "youtubeId": ""
     },
     {
-        "id": "concept-art-folder",
+        "id": "concept-art",
         "title": "Concept Art",
         "category": "Concept Art",
         "coverUrl": "Concept Art/1a.png",
@@ -1012,14 +1030,24 @@ const portfolioData = [
     },
     {
         "id": "storyboards-folder",
-        "title": "Other Storyboards",
+        "title": "Storyboards",
         "category": "Storyboards",
         "coverUrl": "storyboards/1a.png",
         "size": "normal",
         "description": "Other storyboards covering pitch boards, production boards, and visual planning work.",
         "videos": [],
         "downloads": [
-          {
+            {
+                "name": "Storyboard Portfolio 2016 (PDF)",
+                "url": "storyboards/Storyboard_Portfolio 2016.pdf"
+            },
+            {
+                "name": "Storyboard Portfolio (PDF)",
+                "url": "storyboards/Storyboard_portfolio.pdf"
+            }
+        ],
+        "assets": [
+            {
                 "url": "storyboards/1a.png",
                 "caption": ""
             },
