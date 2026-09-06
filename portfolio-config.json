@@ -1,7 +1,7 @@
 [
   {
     "id": "corridor-illustration",
-    "title": "Corridor Book Illustration",
+    "title": "Top Ten Scary Games You Can Play In Your Head - Book Illustration",
     "category": "Illustration",
     "size": "normal",
     "description": "Created over 120 black-and-white illustrations with grayscale shading for a published horror-themed book. Produced story scenes, environmental illustrations, props, maps, and visual story elements while maintaining a cohesive artistic style and meeting publication deadlines.",
@@ -9,28 +9,30 @@
       {
         "provider": "local",
         "id": "Corridor Book Illustrations/Top Ten Scary Games You Can Play In Your Head, By Yourself.mp4",
-        "title": "Scary Games Animatic Process",
+        "title": "Book Trailer: Top Ten Scary Games You Can Play In Your Head, By Yourself",
         "embed": true
       }
     ],
     "downloads": [],
     "folder": "Corridor Book Illustrations",
-    "prefixes": []
+    "prefixes": [],
+    "cover": "Corridor Book Illustrations/1.jpg"
   },
   {
     "id": "killermike-cod-video",
-    "title": "KillerMike COD video",
+    "title": "Killer Mike - Detonator - Call of Duty: Black Ops 6",
     "category": "Storyboards",
     "size": "normal",
     "description": "Storyboard panels outlining intense action sequences and camera movements for the KillerMike Call of Duty promotional music video.",
     "videos": [],
     "downloads": [],
     "folder": "KillerMike COD video",
-    "prefixes": []
+    "prefixes": [],
+    "cover": "KillerMike COD video/1.webp"
   },
   {
     "id": "dojacat-woman-video",
-    "title": "DojaCat Woman Video",
+    "title": "Doja Cat - Woman Music Video",
     "category": "Storyboards",
     "size": "normal",
     "description": "Cinematic visual development and detailed storyboard layout for Doja Cat's music video 'Woman'.",
@@ -52,10 +54,10 @@
   },
   {
     "id": "alien-harvest",
-    "title": "Alien Harvest",
-    "category": "Concept Art",
+    "title": "Alien 40th Anniversary Short Film: Harvest",
+    "category": "Storyboards",
     "size": "normal",
-    "description": "Concept art, environment development, and visual exploration for the Alien Harvest project.",
+    "description": "Production storyboards tracking choreography, set locations, and framing for the Alien Harvest project.",
     "videos": [
       {
         "provider": "local",
@@ -70,10 +72,10 @@
   },
   {
     "id": "brc-last-cup-commercal",
-    "title": "BRC Last Cup Commercal",
-    "category": "Graphic Design",
+    "title": "BRC - THE LAST CUP OF COFFEE Commercal",
+    "category": "Storyboards",
     "size": "normal",
-    "description": "Branding, campaign art, and promotional visuals for BRC Last Cup Commercal.",
+    "description": "Visual board sequences mapping the narrative beats and key performance shots for BRC's THE LAST CUP OF COFFEE commercal.",
     "videos": [],
     "downloads": [],
     "folder": "BRC Last Cup Commercal",
@@ -81,7 +83,7 @@
   },
   {
     "id": "wizk-music-video",
-    "title": "WizK Music Video",
+    "title": "Wiz Khalifa - Peace and Love Music Video",
     "category": "Storyboards",
     "size": "normal",
     "description": "Visual board sequences mapping the narrative beats and key performance shots for WizK's music video.",
@@ -100,7 +102,7 @@
     "downloads": [],
     "folder": "Rocket Jump The Show HULU",
     "prefixes": [],
-    "cover": "Rocket Jump The Show HULU/RJ1.jpg",
+    "cover": "Rocket Jump The Show HULU/1a.jpg",
     "custom_captions": {
       "Rocket Jump The Show HULU/RJ2.jpg": "Rocket Jump Storyboards - Action Sequence A",
       "Rocket Jump The Show HULU/RJ4.jpg": "Rocket Jump Storyboards - Action Sequence B"
@@ -108,7 +110,7 @@
   },
   {
     "id": "the-innocent-documentary",
-    "title": "The Innocent Documentary",
+    "title": "The Innocent Man NETFLIX Documentary",
     "category": "Storyboards",
     "size": "normal",
     "description": "Visual storyboards and documentary planning for The Innocent project.",
@@ -168,18 +170,19 @@
   },
   {
     "id": "brc-black-friday",
-    "title": "BRC Black Friday",
-    "category": "Graphic Design",
+    "title": "BRC - Bass Pro Battle Royale Commercial",
+    "category": "Storyboards",
     "size": "normal",
-    "description": "Campaign layouts and promotional design work for Black Friday sales assets.",
+    "description": "Production storyboards tracking choreography, set locations, and framing for the BRC - Bass Pro Battle Royale Commercial.",
     "videos": [],
     "downloads": [],
     "folder": "BRC Black Friday",
-    "prefixes": []
+    "prefixes": [],
+    "cover": "BRC Black Friday/1a.png"
   },
   {
     "id": "corridor-battle-born",
-    "title": "Corridor Battle Born",
+    "title": "Corridor Battleborn Trick Shots",
     "category": "Storyboards",
     "size": "normal",
     "description": "Storyboard and visual development for the Corridor Battle Born project.",
@@ -190,7 +193,7 @@
   },
   {
     "id": "corridor-dimensions",
-    "title": "Corridor Demensions",
+    "title": "Corridor Demensions Animation",
     "category": "Concept Art & Storyboards & Animation",
     "size": "normal",
     "description": "Character and environment design visual development for the Corridor Demensions concept project.",
@@ -209,7 +212,8 @@
       }
     ],
     "folder": "Corridor Demensions",
-    "prefixes": []
+    "prefixes": [],
+    "cover": "Corridor Demensions/1a.png"
   },
   {
     "id": "graphic-design-motion-graphics",
@@ -228,6 +232,12 @@
         "provider": "local",
         "id": "Graphic Design & Motion Graphics/GabrielP_Animation trailer.mp4",
         "title": "Animation Trailer",
+        "embed": true
+      },
+      {
+        "provider": "local",
+        "id": "Graphic Design & Motion Graphics/Guillotine Channel Log Animation.mp4",
+        "title": "Guillotine Channel Log Animation",
         "embed": true
       }
     ],
@@ -266,7 +276,7 @@
   },
   {
     "id": "five-nations-comic-folder",
-    "title": "5 Nations Comic Folder",
+    "title": "5 Nations Comic",
     "category": "Comics & Concept Art",
     "size": "wide",
     "description": "The complete 5 Nations Comic folder collection as a standalone portfolio entry.",
@@ -278,7 +288,7 @@
   },
   {
     "id": "chaos-agent-comic-folder",
-    "title": "Chaos Agent Comic Folder",
+    "title": "Chaos Agent Comic",
     "category": "Comics",
     "size": "normal",
     "description": "The complete Chaos Agent Comic folder collection as a standalone portfolio entry.",
@@ -286,11 +296,11 @@
     "downloads": [],
     "folder": "Chaos  Agent Comic",
     "prefixes": [],
-    "cover": "Chaos  Agent Comic/01.jpg"
+    "cover": "Chaos  Agent Comic/_1.jpg"
   },
   {
     "id": "comics-folder",
-    "title": "Comics Folder",
+    "title": "Comics",
     "category": "Comics",
     "size": "normal",
     "description": "The general Comics folder archive, including additional comic-related artwork and pages.",
@@ -301,8 +311,8 @@
   },
   {
     "id": "concept-art-folder",
-    "title": "Concept Art Folder",
-    "category": "Concept Art",
+    "title": "Concept Art",
+    "category": "Concept Art & Illustration",
     "size": "normal",
     "description": "The complete Concept Art folder archive containing environment, character, and illustration studies.",
     "videos": [],
@@ -317,7 +327,7 @@
   },
   {
     "id": "storyboards-folder",
-    "title": "Storyboards Folder",
+    "title": "Other Storyboards",
     "category": "Storyboards",
     "size": "normal",
     "description": "The complete storyboards folder archive covering pitch boards, production boards, and visual planning work.",

@@ -3,16 +3,16 @@
 const portfolioData = [
     {
         "id": "corridor-illustration",
-        "title": "Corridor Book Illustration",
+        "title": "Top Ten Scary Games You Can Play In Your Head - Book Illustration",
         "category": "Illustration",
-        "coverUrl": "Corridor Book Illustrations/UC 01.jpg",
+        "coverUrl": "Corridor Book Illustrations/1.jpg",
         "size": "normal",
         "description": "Created over 120 black-and-white illustrations with grayscale shading for a published horror-themed book. Produced story scenes, environmental illustrations, props, maps, and visual story elements while maintaining a cohesive artistic style and meeting publication deadlines.",
         "videos": [
             {
                 "provider": "local",
                 "id": "Corridor Book Illustrations/Top Ten Scary Games You Can Play In Your Head, By Yourself.mp4",
-                "title": "Scary Games Animatic Process",
+                "title": "Book Trailer: Top Ten Scary Games You Can Play In Your Head, By Yourself",
                 "embed": true
             }
         ],
@@ -103,7 +103,7 @@ const portfolioData = [
     },
     {
         "id": "killermike-cod-video",
-        "title": "KillerMike COD video",
+        "title": "Killer Mike - Detonator - Call of Duty: Black Ops 6",
         "category": "Storyboards",
         "coverUrl": "KillerMike COD video/1.webp",
         "size": "normal",
@@ -113,6 +113,10 @@ const portfolioData = [
         "assets": [
             {
                 "url": "KillerMike COD video/1.png",
+                "caption": ""
+            },
+            {
+                "url": "KillerMike COD video/1.webp",
                 "caption": ""
             },
             {
@@ -148,7 +152,7 @@ const portfolioData = [
     },
     {
         "id": "dojacat-woman-video",
-        "title": "DojaCat Woman Video",
+        "title": "Doja Cat - Woman Music Video",
         "category": "Storyboards",
         "coverUrl": "DojaCat Woman Video/1.png",
         "size": "normal",
@@ -156,6 +160,10 @@ const portfolioData = [
         "videos": [],
         "downloads": [],
         "assets": [
+            {
+                "url": "DojaCat Woman Video/1.png",
+                "caption": ""
+            },
             {
                 "url": "DojaCat Woman Video/2A.webp",
                 "caption": ""
@@ -234,7 +242,7 @@ const portfolioData = [
         "category": "Storyboards",
         "coverUrl": "Alien Harvest/1a.png",
         "size": "normal",
-        "description": "Developmenting the visual diversity and building tension with the director for the Alien Harvest project.",
+        "description": "Production storyboards tracking choreography, set locations, and framing for the Alien Harvest project.",
         "videos": [
             {
                 "provider": "local",
@@ -245,6 +253,10 @@ const portfolioData = [
         ],
         "downloads": [],
         "assets": [
+            {
+                "url": "Alien Harvest/1a.png",
+                "caption": ""
+            },
             {
                 "url": "Alien Harvest/2a.webp",
                 "caption": ""
@@ -274,7 +286,7 @@ const portfolioData = [
         "category": "Storyboards",
         "coverUrl": "BRC Last Cup Commercal/1a.png",
         "size": "normal",
-        "description": "Cinematic visual development and detailed storyboard layout for the BRC Last Cup commercial.",
+        "description": "Visual board sequences mapping the narrative beats and key performance shots for BRC's THE LAST CUP OF COFFEE commercal.",
         "videos": [],
         "downloads": [],
         "assets": [
@@ -318,15 +330,19 @@ const portfolioData = [
         "youtubeId": ""
     },
     {
-        "id": "Wiz Khalifa - Peace and Love Music Video",
+        "id": "wizk-music-video",
         "title": "Wiz Khalifa - Peace and Love Music Video",
         "category": "Storyboards",
         "coverUrl": "WizK Music Video/1a.png",
         "size": "normal",
-        "description": "Visual board sequences mapping the narrative beats and key performance shots for Wiz Khalifa's music video.",
+        "description": "Visual board sequences mapping the narrative beats and key performance shots for WizK's music video.",
         "videos": [],
         "downloads": [],
         "assets": [
+            {
+                "url": "WizK Music Video/1a.png",
+                "caption": ""
+            },
             {
                 "url": "WizK Music Video/2a.webp",
                 "caption": ""
@@ -486,10 +502,10 @@ const portfolioData = [
     {
         "id": "brc-black-friday",
         "title": "BRC - Bass Pro Battle Royale Commercial",
-        "category": "Graphic Design",
-        "coverUrl": "BRC Black Friday/1.webp",
+        "category": "Storyboards",
+        "coverUrl": "BRC Black Friday/1a.png",
         "size": "normal",
-        "description": "Campaign layouts and promotional design work for Black Friday sales assets.",
+        "description": "Production storyboards tracking choreography, set locations, and framing for the BRC - Bass Pro Battle Royale Commercial.",
         "videos": [],
         "downloads": [],
         "assets": [
@@ -546,7 +562,7 @@ const portfolioData = [
         "category": "Storyboards",
         "coverUrl": "Corridor Battle Born/1a.png",
         "size": "normal",
-        "description": "Storyboard and visual development for the Corridor Battle Born project for Corridor Digital YouTube channel.",
+        "description": "Storyboard and visual development for the Corridor Battle Born project.",
         "videos": [],
         "downloads": [],
         "assets": [
@@ -760,12 +776,12 @@ const portfolioData = [
         "youtubeId": ""
     },
     {
-        "id": "five-nations-comic",
+        "id": "five-nations-comic-folder",
         "title": "5 Nations Comic",
         "category": "Comics & Concept Art",
         "coverUrl": "5 Nations Comic/5N_cover.jpg",
         "size": "wide",
-        "description": "The complete 5 Nations Comic collection as comic ment to visualy develop a story and world.",
+        "description": "The complete 5 Nations Comic folder collection as a standalone portfolio entry.",
         "videos": [],
         "downloads": [],
         "assets": [
@@ -841,12 +857,12 @@ const portfolioData = [
         "youtubeId": ""
     },
     {
-        "id": "chaos-agent-comic",
+        "id": "chaos-agent-comic-folder",
         "title": "Chaos Agent Comic",
         "category": "Comics",
-        "coverUrl": "Chaos  Agent Comic/01.jpg",
+        "coverUrl": "Chaos  Agent Comic/_1.jpg",
         "size": "normal",
-        "description": "The complete Chaos Agent Comic personal project.",
+        "description": "The complete Chaos Agent Comic folder collection as a standalone portfolio entry.",
         "videos": [],
         "downloads": [],
         "assets": [
@@ -882,7 +898,7 @@ const portfolioData = [
         "youtubeId": ""
     },
     {
-        "id": "comics",
+        "id": "comics-folder",
         "title": "Comics",
         "category": "Comics",
         "coverUrl": "Comics/TC_cover2.jpg",
@@ -951,9 +967,9 @@ const portfolioData = [
         "youtubeId": ""
     },
     {
-        "id": "concept-art",
+        "id": "concept-art-folder",
         "title": "Concept Art",
-        "category": "Concept Art",
+        "category": "Concept Art & Illustration",
         "coverUrl": "Concept Art/1a.png",
         "size": "normal",
         "description": "The complete Concept Art folder archive containing environment, character, and illustration studies.",
@@ -1030,11 +1046,11 @@ const portfolioData = [
     },
     {
         "id": "storyboards-folder",
-        "title": "Storyboards",
+        "title": "Other Storyboards",
         "category": "Storyboards",
         "coverUrl": "storyboards/1a.png",
         "size": "normal",
-        "description": "Other storyboards covering pitch boards, production boards, and visual planning work.",
+        "description": "The complete storyboards folder archive covering pitch boards, production boards, and visual planning work.",
         "videos": [],
         "downloads": [
             {
