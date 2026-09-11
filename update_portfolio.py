@@ -41,6 +41,8 @@ def main():
         folder = project.get('folder', '')
         prefixes = project.get('prefixes', [])
         custom_captions = project.get('custom_captions', {})
+        custom_links = project.get('custom_links', {})
+        order = project.get('order', [])
         cover_override = project.get('cover', '')
         
         # Filter declared videos so local files that no longer exist are omitted
@@ -62,6 +64,7 @@ def main():
             "category": project.get('category', ''),
             "coverUrl": "",
             "size": project.get('size', 'normal'),
+            "hidden": project.get('hidden', False),
             "description": project.get('description', ''),
             "videos": valid_videos,
             "downloads": list(project.get('downloads', [])),
@@ -127,8 +130,19 @@ def main():
             elif lower_name.endswith(DOCUMENT_EXTENSIONS):
                 matched_documents.append(filename)
 
-        # Sort files naturally
-        matched_images.sort(key=natural_sort_key)
+        # Sort files naturally, respecting custom order if defined
+        if order:
+            def sort_with_order(fn):
+                rel = f"{folder}/{fn}"
+                if fn in order:
+                    return (0, order.index(fn))
+                if rel in order:
+                    return (0, order.index(rel))
+                return (1, natural_sort_key(fn))
+            matched_images.sort(key=sort_with_order)
+        else:
+            matched_images.sort(key=natural_sort_key)
+
         matched_videos.sort(key=natural_sort_key)
         matched_documents.sort(key=natural_sort_key)
 
@@ -137,10 +151,15 @@ def main():
         for filename in matched_images:
             relative_url = f"{folder}/{filename}"
             caption = custom_captions.get(relative_url, "")
-            assets.append({
+            asset_obj = {
                 "url": relative_url,
                 "caption": caption
-            })
+            }
+            if relative_url in custom_links:
+                asset_obj["link"] = custom_links[relative_url]
+            elif filename in custom_links:
+                asset_obj["link"] = custom_links[filename]
+            assets.append(asset_obj)
         compiled_project['assets'] = assets
 
         # Auto-add local videos found on disk that aren't yet in config

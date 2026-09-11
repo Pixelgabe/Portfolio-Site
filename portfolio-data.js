@@ -7,6 +7,7 @@ const portfolioData = [
         "category": "Illustration",
         "coverUrl": "Corridor Book Illustrations/1.jpg",
         "size": "normal",
+        "hidden": false,
         "description": "Created over 120 black-and-white illustrations with grayscale shading for a published horror-themed book. Produced story scenes, environmental illustrations, props, maps, and visual story elements while maintaining a cohesive artistic style and meeting publication deadlines.",
         "videos": [
             {
@@ -107,6 +108,7 @@ const portfolioData = [
         "category": "Storyboards",
         "coverUrl": "KillerMike COD video/1.webp",
         "size": "normal",
+        "hidden": false,
         "description": "Storyboard panels outlining intense action sequences and camera movements for the KillerMike Call of Duty promotional music video.",
         "videos": [],
         "downloads": [],
@@ -156,6 +158,7 @@ const portfolioData = [
         "category": "Storyboards",
         "coverUrl": "DojaCat Woman Video/1.png",
         "size": "normal",
+        "hidden": false,
         "description": "Cinematic visual development and detailed storyboard layout for Doja Cat's music video 'Woman'.",
         "videos": [],
         "downloads": [],
@@ -197,6 +200,7 @@ const portfolioData = [
         "category": "Storyboards",
         "coverUrl": "GwenS Music Video/1a.png",
         "size": "normal",
+        "hidden": false,
         "description": "Production storyboards tracking choreography, set locations, and framing for GwenS's music video project.",
         "videos": [],
         "downloads": [],
@@ -242,6 +246,7 @@ const portfolioData = [
         "category": "Storyboards",
         "coverUrl": "Alien Harvest/1a.png",
         "size": "normal",
+        "hidden": false,
         "description": "Production storyboards tracking choreography, set locations, and framing for the Alien Harvest project.",
         "videos": [
             {
@@ -286,6 +291,7 @@ const portfolioData = [
         "category": "Storyboards",
         "coverUrl": "BRC Last Cup Commercal/1a.png",
         "size": "normal",
+        "hidden": false,
         "description": "Visual board sequences mapping the narrative beats and key performance shots for BRC's THE LAST CUP OF COFFEE commercal.",
         "videos": [],
         "downloads": [],
@@ -335,6 +341,7 @@ const portfolioData = [
         "category": "Storyboards",
         "coverUrl": "WizK Music Video/1a.png",
         "size": "normal",
+        "hidden": false,
         "description": "Visual board sequences mapping the narrative beats and key performance shots for WizK's music video.",
         "videos": [],
         "downloads": [],
@@ -376,6 +383,7 @@ const portfolioData = [
         "category": "Storyboards",
         "coverUrl": "Rocket Jump The Show HULU/1a.jpg",
         "size": "wide",
+        "hidden": false,
         "description": "Storyboard panels and action planning for Rocket Jump: The Show on Hulu.",
         "videos": [],
         "downloads": [],
@@ -405,6 +413,7 @@ const portfolioData = [
         "category": "Storyboards",
         "coverUrl": "The Innocent Documentary/1a.jpg",
         "size": "normal",
+        "hidden": false,
         "description": "Visual storyboards and documentary planning for The Innocent project.",
         "videos": [
             {
@@ -457,6 +466,7 @@ const portfolioData = [
         "category": "Animation & Storyboards",
         "coverUrl": "Animatics/1a.png",
         "size": "normal",
+        "hidden": false,
         "description": "Animatic timing studies and visual progression work across sequence tests.",
         "videos": [
             {
@@ -505,6 +515,7 @@ const portfolioData = [
         "category": "Storyboards",
         "coverUrl": "BRC Black Friday/1a.png",
         "size": "normal",
+        "hidden": false,
         "description": "Production storyboards tracking choreography, set locations, and framing for the BRC - Bass Pro Battle Royale Commercial.",
         "videos": [],
         "downloads": [],
@@ -562,6 +573,7 @@ const portfolioData = [
         "category": "Storyboards",
         "coverUrl": "Corridor Battle Born/1a.png",
         "size": "normal",
+        "hidden": false,
         "description": "Storyboard and visual development for the Corridor Battle Born project.",
         "videos": [],
         "downloads": [],
@@ -615,6 +627,7 @@ const portfolioData = [
         "category": "Concept Art & Storyboards & Animation",
         "coverUrl": "Corridor Demensions/1a.png",
         "size": "normal",
+        "hidden": false,
         "description": "Character and environment design visual development for the Corridor Demensions concept project.",
         "videos": [
             {
@@ -656,6 +669,7 @@ const portfolioData = [
         "category": "Motion Graphics",
         "coverUrl": "Graphic Design & Motion Graphics/Graphic Design.jpg",
         "size": "normal",
+        "hidden": false,
         "description": "Poster, motion, and graphic design work spanning brand and promotional pieces.",
         "videos": [
             {
@@ -692,6 +706,7 @@ const portfolioData = [
         "category": "Illustration & Animation",
         "coverUrl": "Kids Art & Animation/1b.png",
         "size": "normal",
+        "hidden": false,
         "description": "Illustration and animation work focused on child-friendly visual storytelling and creativity.",
         "videos": [],
         "downloads": [],
@@ -737,6 +752,7 @@ const portfolioData = [
         "category": "Animation & Storyboards",
         "coverUrl": "Liam's Fight Animation/1a.png",
         "size": "normal",
+        "hidden": false,
         "description": "Animation and story development for the Liam's Fight project.",
         "videos": [
             {
@@ -781,6 +797,7 @@ const portfolioData = [
         "category": "Comics & Concept Art",
         "coverUrl": "5 Nations Comic/5N_cover.jpg",
         "size": "wide",
+        "hidden": false,
         "description": "The complete 5 Nations Comic folder collection as a standalone portfolio entry.",
         "videos": [],
         "downloads": [],
@@ -862,6 +879,7 @@ const portfolioData = [
         "category": "Comics",
         "coverUrl": "Chaos  Agent Comic/_1.jpg",
         "size": "normal",
+        "hidden": false,
         "description": "The complete Chaos Agent Comic folder collection as a standalone portfolio entry.",
         "videos": [],
         "downloads": [],
@@ -903,6 +921,7 @@ const portfolioData = [
         "category": "Comics",
         "coverUrl": "Comics/TC_cover2.jpg",
         "size": "normal",
+        "hidden": false,
         "description": "The general Comics folder archive, including additional comic-related artwork and pages.",
         "videos": [],
         "downloads": [],
@@ -972,6 +991,7 @@ const portfolioData = [
         "category": "Concept Art & Illustration",
         "coverUrl": "Concept Art/1a.png",
         "size": "normal",
+        "hidden": false,
         "description": "The complete Concept Art folder archive containing environment, character, and illustration studies.",
         "videos": [],
         "downloads": [
@@ -1050,6 +1070,7 @@ const portfolioData = [
         "category": "Storyboards",
         "coverUrl": "storyboards/1a.png",
         "size": "normal",
+        "hidden": false,
         "description": "The complete storyboards folder archive covering pitch boards, production boards, and visual planning work.",
         "videos": [],
         "downloads": [
@@ -1106,6 +1127,35 @@ const portfolioData = [
             {
                 "url": "storyboards/Shape_stoaryboards.jpg",
                 "caption": ""
+            }
+        ],
+        "youtubeId": ""
+    },
+    {
+        "id": "apps",
+        "title": "Fight Club & Web Apps",
+        "category": "Interactive & Web Apps",
+        "coverUrl": "Apps/Fight-Club-App-2.0.png",
+        "size": "normal",
+        "hidden": true,
+        "description": "Interactive web applications and creative tools built by Gabriel Peregrino. Click any app preview card below to launch the live application in a new tab.",
+        "videos": [],
+        "downloads": [],
+        "assets": [
+            {
+                "url": "Apps/Fight-Club-App-2.0.png",
+                "caption": "Fight Club App 2.0 — Interactive Visual Bracket & Fight Choreography Tool",
+                "link": "https://pixelgabe.github.io/Fight-Club-App-2.0/"
+            },
+            {
+                "url": "Apps/Story-Master.png",
+                "caption": "Story Master — Interactive Story Creation & Script Sequencing Application",
+                "link": "https://pixelgabe.github.io/Story-Master/"
+            },
+            {
+                "url": "Apps/Draw-Mode-App.png",
+                "caption": "Drawing Trainer — Interactive Drawing Mode & Timed Sketching Practice App",
+                "link": "https://pixelgabe.github.io/Draw-Mode-App/"
             }
         ],
         "youtubeId": ""

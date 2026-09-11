@@ -344,5 +344,33 @@
     ],
     "folder": "storyboards",
     "prefixes": []
+  },
+  {
+    "id": "apps",
+    "title": "Fight Club & Web Apps",
+    "category": "Interactive & Web Apps",
+    "size": "normal",
+    "hidden": true,
+    "description": "Interactive web applications and creative tools built by Gabriel Peregrino. Click any app preview card below to launch the live application in a new tab.",
+    "videos": [],
+    "downloads": [],
+    "folder": "Apps",
+    "prefixes": [],
+    "cover": "Apps/Fight-Club-App-2.0.png",
+    "order": [
+      "Fight-Club-App-2.0.png",
+      "Story-Master.png",
+      "Draw-Mode-App.png"
+    ],
+    "custom_links": {
+      "Apps/Fight-Club-App-2.0.png": "https://pixelgabe.github.io/Fight-Club-App-2.0/",
+      "Apps/Story-Master.png": "https://pixelgabe.github.io/Story-Master/",
+      "Apps/Draw-Mode-App.png": "https://pixelgabe.github.io/Draw-Mode-App/"
+    },
+    "custom_captions": {
+      "Apps/Fight-Club-App-2.0.png": "Fight Club App 2.0 — Interactive Visual Bracket & Fight Choreography Tool",
+      "Apps/Story-Master.png": "Story Master — Interactive Story Creation & Script Sequencing Application",
+      "Apps/Draw-Mode-App.png": "Drawing Trainer — Interactive Drawing Mode & Timed Sketching Practice App"
+    }
   }
 ]

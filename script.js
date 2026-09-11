@@ -15,6 +15,7 @@ function initFilters() {
     categorySet.add('All');
 
     portfolioData.forEach(item => {
+        if (item.hidden) return;
         if (item.category) {
             const parts = item.category.split('&').map(cat => cat.trim());
             parts.forEach(part => {
@@ -45,8 +46,9 @@ function initFilters() {
 function renderGallery() {
     gallery.innerHTML = '';
     const visibleItems = currentFilter === 'All'
-        ? portfolioData
+        ? portfolioData.filter(item => !item.hidden)
         : portfolioData.filter(item => {
+            if (item.hidden) return false;
             if (!item.category) return false;
             const parts = item.category.split('&').map(cat => cat.trim());
             return parts.includes(currentFilter);
@@ -78,7 +80,7 @@ function handleRoute() {
     
     if (hash.startsWith('#project/')) {
         const projectId = hash.replace('#project/', '');
-        const project = portfolioData.find(p => p.id === projectId);
+        const project = portfolioData.find(p => p.id === projectId || (projectId === 'fight-club-app' && p.id === 'apps'));
         if (project) {
             openProject(project);
             return;
@@ -254,17 +256,40 @@ function openProject(project) {
 
     if (activeProjectAssets.length > 0) {
         activeProjectAssets.forEach((asset, index) => {
-            const assetDiv = document.createElement('div');
-            assetDiv.className = 'project-gallery-item';
+            const hasLink = Boolean(asset.link);
+            const assetEl = document.createElement(hasLink ? 'a' : 'div');
+            assetEl.className = 'project-gallery-item' + (hasLink ? ' project-gallery-link' : '');
             
+            if (hasLink) {
+                assetEl.href = asset.link;
+                assetEl.target = '_blank';
+                assetEl.rel = 'noopener noreferrer';
+            }
+
             const captionHtml = asset.caption ? `<div class="asset-caption">${asset.caption}</div>` : '';
-            assetDiv.innerHTML = `
-                <img src="${asset.url}" alt="${asset.caption || project.title}" loading="lazy">
+            const linkBadge = hasLink ? `
+                <div class="asset-link-badge">
+                    <span>Launch App</span>
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                        <polyline points="15 3 21 3 21 9"></polyline>
+                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                </div>
+            ` : '';
+
+            assetEl.innerHTML = `
+                <div class="project-gallery-item-image-wrapper">
+                    <img src="${asset.url}" alt="${asset.caption || project.title}" loading="lazy">
+                    ${linkBadge}
+                </div>
                 ${captionHtml}
             `;
             
-            assetDiv.addEventListener('click', () => openLightbox(index));
-            projectGallery.appendChild(assetDiv);
+            if (!hasLink) {
+                assetEl.addEventListener('click', () => openLightbox(index));
+            }
+            projectGallery.appendChild(assetEl);
         });
     }
 
@@ -392,6 +417,19 @@ document.addEventListener('keydown', (e) => {
 
 // Watch Routing Events
 window.addEventListener('hashchange', handleRoute);
+
+// Direct link handler for header Fight Club App button
+const fightClubBtn = document.getElementById('fight-club-app-btn');
+if (fightClubBtn) {
+    fightClubBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.location.hash = 'project/apps';
+        const project = portfolioData.find(p => p.id === 'apps' || p.id === 'fight-club-app');
+        if (project) {
+            openProject(project);
+        }
+    });
+}
 
 // Initialize application
 initFilters();
